@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.rate.RateFragment"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_rateFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Toolbar-->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/toolbar_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetEnd="0dp">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/rateFragmentAppBar"
+                android:elevation="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="@string/title_rate"
+                app:titleTextColor="@color/white"
+                app:menu="@menu/rate_menu"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!--Artwork recycler view-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_rateFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:scrollbars="vertical"
+            app:layoutManager="LinearLayoutManager" />
+
+        <!--Artwork grid view-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_gridRateFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:visibility="invisible"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+
+        <!--Grid view zoom slider-->
+        <LinearLayout
+            android:id="@+id/ll_zoomSliderContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/zoom_slider_background"
+            android:orientation="horizontal"
+            android:padding="25dp"
+            android:translationZ="2dp"
+            android:visibility="gone">
+
+            <SeekBar
+                android:id="@+id/sb_zoomSlider"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="5"
+                android:progress="2" />
+
+            <ImageView
+                android:id="@+id/iv_sliderXButton"
+                android:contentDescription="@string/rate_page_grid_view_slider_cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/zoom_slider_cancel_background"
+                android:padding="10dp"
+                android:src="@drawable/ic_cancel_24dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

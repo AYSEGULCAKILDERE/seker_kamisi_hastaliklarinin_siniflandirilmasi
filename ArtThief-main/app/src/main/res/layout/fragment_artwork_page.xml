@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--Artwork Image Container-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp">
+
+        <com.ortiz.touchview.TouchImageView
+            android:id="@+id/iv_artworkPageImage"
+            android:contentDescription="@string/artwork_page_artwork_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <!--Artwork Info Card-->
+    <LinearLayout
+        android:id="@+id/ll_infoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/artwork_card_background"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <!--Top half of card-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <!--Stars - rating-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <ImageView
+                    android:id="@+id/iv_artworkPageStar1"
+                    android:contentDescription="@string/artwork_page_one_star"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_rate_sharp_24dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_artworkPageStar2"
+                    android:contentDescription="@string/artwork_page_two_star"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_rate_sharp_24dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_artworkPageStar3"
+                    android:contentDescription="@string/artwork_page_three_star"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_rate_sharp_24dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_artworkPageStar4"
+                    android:contentDescription="@string/artwork_page_four_star"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_rate_sharp_24dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_artworkPageStar5"
+                    android:contentDescription="@string/artwork_page_five_star"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_rate_sharp_24dp"/>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--Bottom half of card-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1">
+
+            <!--Bottom left - artist, media, dimensions-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <TextView
+                    android:id="@+id/tv_artworkArtist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/artwork_default_author"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tv_artworkMedia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/artwork_default_media"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tv_artworkDimensions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/artwork_default_dimensions"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <!--Bottom right - show ID-->
+            <TextView
+                android:id="@+id/tv_artworkShowId"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/artwork_show_id_background"
+                android:gravity="center"
+                android:text="@string/artwork_default_show_id"
+                android:textColor="@color/art_thief_primary"
+                android:textSize="14sp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

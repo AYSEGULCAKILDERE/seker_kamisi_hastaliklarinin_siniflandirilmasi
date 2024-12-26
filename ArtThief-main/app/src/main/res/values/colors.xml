@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#EE4B2B</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="art_thief_primary">#375C5A</color>
+    <color name="art_thief_secondary">#306E6B</color>
+    <color name="art_thief_tertiary">#B4ABA9</color>
+
+    <color name="bottom_nav_item_background_active">#D2DFDE</color>
+
+    <color name="overview_tab_inactive">#63BBB6</color>
+
+    <color name="artwork_card_background">#EEEEEE</color>
+    <color name="artwork_card_right_text">#787878</color>
+    <color name="artwork_unfilled_star">#CBCACA</color>
+    <color name="artwork_unrated_text">#818181</color>
+
+    <color name="toolbar_bottom_border">#808080</color>
+
+    <color name="link_background">#666666</color>
+    <color name="link_background_hover">#7A807D</color>
+
+    <color name="compare_button_background">#DFDFDF</color>
+    <color name="compare_button_text">#818181</color>
+    <color name="compare_image_background">#DFDFDF</color>
+
+    <color name="send_edit_text_hint">#787878</color>
+    <color name="send_button_background">#3E8076</color>
+</resources>

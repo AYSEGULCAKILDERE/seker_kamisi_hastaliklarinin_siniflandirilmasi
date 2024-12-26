@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--Section header-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/artwork_adapter_bottom_border"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="5dp">
+
+        <!--Stars images-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_artworkStar1"
+                android:contentDescription="@string/artwork_section_one_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_rate_sharp_24dp"
+                app:tint="@color/art_thief_primary"/>
+
+            <ImageView
+                android:id="@+id/iv_artworkStar2"
+                android:contentDescription="@string/artwork_section_two_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_rate_sharp_24dp"
+                app:tint="@color/art_thief_primary"/>
+
+            <ImageView
+                android:id="@+id/iv_artworkStar3"
+                android:contentDescription="@string/artwork_section_three_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_rate_sharp_24dp"
+                app:tint="@color/art_thief_primary"/>
+
+            <ImageView
+                android:id="@+id/iv_artworkStar4"
+                android:contentDescription="@string/artwork_section_four_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_rate_sharp_24dp"
+                app:tint="@color/art_thief_primary"/>
+
+            <ImageView
+                android:id="@+id/iv_artworkStar5"
+                android:contentDescription="@string/artwork_section_five_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_rate_sharp_24dp"
+                app:tint="@color/art_thief_primary"/>
+
+        </LinearLayout>
+
+        <!--Unrated title-->
+        <TextView
+            android:id="@+id/tv_ratingSectionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/rate_fragment_unrated"
+            android:textColor="@color/artwork_unrated_text"
+            android:visibility="gone"/>
+
+        <!--Compare button-->
+        <Button
+            android:id="@+id/b_compareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/compare_button_background"
+            android:paddingHorizontal="7dp"
+            android:paddingVertical="0dp"
+            android:text="@string/rate_fragment_compare_button"
+            android:textAllCaps="false"
+            android:textColor="@color/compare_button_text"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_ratingSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

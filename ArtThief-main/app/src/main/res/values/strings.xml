@@ -1,0 +1,163 @@
+<resources>
+
+    <!--Main-->
+    <string name="app_name">Art Thief</string>
+    <string name="app_version">Version 1.4.1</string>
+    <string name="title_overview">Overview</string>
+    <string name="title_rate">Rate Art</string>
+    <string name="title_artwork">Artwork</string>
+    <string name="title_augmented">Augmented Reality</string>
+    <string name="title_compare">Which do you prefer?</string>
+    <string name="title_send">Send Your List</string>
+
+    <!--Tabbed -->
+    <string name="nav_item_augmented">Aug. Reality</string>
+    <string name="nav_item_send">Send List</string>
+
+    <!--Overview page 1 strings-->
+    <string name="overview_fragment_1_subtitle">Get a steal at the Art League\'s Patrons\' Show</string>
+    <string name="overview_fragment_1_instruction">Swipe to the left for an overview of the app.</string>
+
+    <!--Overview page 2 strings-->
+    <string name="overview_fragment_2_title">The Heist</string>
+    <string name="overview_fragment_2_subtitle">Art Thief makes it easy to build and submit a list of your favorite art from the Art League\'s Patrons\' Show. When your name is selected during the Patron\'s Show drawing, the highest ranked artwork from the list you submitted via Art Thief will be automatically selected as your chosen piece.</string>
+
+    <!--Overview page 3 strings-->
+    <string name="overview_fragment_3_title">The Plan</string>
+    <string name="overview_fragment_3_bp_1_num">1</string>
+    <string name="overview_fragment_3_bp_1_text">Buy a ticket to the Patrons\' Show. That insures you get a cut of the loot.</string>
+    <string name="overview_fragment_3_bp_2_num">2</string>
+    <string name="overview_fragment_3_bp_2_text">Review and rate the art. Assign stars to all the pieces that you like with 5 stars being the art you love.</string>
+    <string name="overview_fragment_3_bp_3_num">3</string>
+    <string name="overview_fragment_3_bp_3_text">Use the "Compare" feature or drag and drop the artworks with a given star rating to get your art in order with your favorite pieces at the top of your list.</string>
+    <string name="overview_fragment_3_bp_4_num">4</string>
+    <string name="overview_fragment_3_bp_4_text">Enter the code name that\'s associated with your ticket and submit your list. You can resubmit your list at any time.</string>
+    <string name="overview_fragment_3_link"><a href="https://www.zurka.com/art-thief/instructions.php">Detailed Instructions</a></string>
+
+    <!--Overview page 4 strings-->
+    <string name="overview_fragment_4_title">Roll Credits</string>
+    <string name="overview_fragment_4_created_by">Art Thief on Android was created by:</string>
+    <string name="overview_fragment_4_author">Joseph Rock</string>
+    <string name="overview_fragment_4_reach_out">Please feel free to reach out to us at:\njosephrockqz@gmail.com</string>
+
+    <!--Rate page strings-->
+    <string name="title_grid_sort">Sort Art</string>
+    <string name="mi_view_title">View</string>
+    <string name="mi_list_title">List</string>
+    <string name="mi_grid_title">Grid</string>
+    <string name="mi_rate_title">Rate</string>
+    <string name="mi_list_by_rating_title">List by Rating</string>
+    <string name="mi_list_by_id_number_title">ID Number</string>
+    <string name="mi_artist_title">Artist</string>
+    <string name="mi_filter_title">Filter</string>
+    <string name="mi_show_all_title">Show All</string>
+    <string name="mi_five_stars_title">5 Stars</string>
+    <string name="mi_four_stars_title">4 Stars</string>
+    <string name="mi_three_stars_title">3 Stars</string>
+    <string name="mi_two_stars_title">2 Stars</string>
+    <string name="mi_one_stars_title">1 Stars</string>
+    <string name="mi_unrated_title">Unrated</string>
+    <string name="mi_show_deleted_art_title">Show Deleted Art</string>
+    <string name="mi_hide_deleted_art_title">Hide Deleted Art</string>
+    <string name="mi_show_taken_art_title">Show Taken Art</string>
+    <string name="mi_hide_taken_art_title">Hide Taken Art</string>
+    <string name="mi_refresh_title">Refresh</string>
+    <string name="title_zoom_slider_title">Zoom</string>
+    <string name="mi_title_search">Search</string>
+    <string name="rate_fragment_compare_button">Compare</string>
+    <string name="rate_fragment_compare_button_sorted">Sorted \u2714</string>
+    <string name="rate_fragment_unrated">Unrated</string>
+    <string name="art_card_title">Title</string>
+    <string name="art_card_artist">Artist</string>
+    <string name="art_card_media">Media</string>
+    <string name="art_card_dimensions">Dimensions</string>
+    <string name="art_card_show_id">Show ID</string>
+    <string name="art_card_taken">Taken</string>
+    <string name="art_card_deleted">Deleted</string>
+
+    <!--Artwork page strings-->
+    <string name="mi_augmented">Augmented Reality</string>
+    <string name="artwork_default_title">Title</string>
+    <string name="artwork_default_author">Artist</string>
+    <string name="artwork_default_media">Media</string>
+    <string name="artwork_default_dimensions">X.Y" by A.B"</string>
+    <string name="artwork_default_show_id">542</string>
+
+    <!--Compare page strings-->
+    <string name="mi_close">Close</string>
+    <string name="mi_ellipses">More</string>
+    <string name="mi_instructions">Instructions</string>
+    <string name="mi_settings">Settings</string>
+    <string name="instructions_ok">OK</string>
+    <string name="compare_art_instructions_title">Compare Art</string>
+    <string name="compare_art_instructions_message">Fine tune your list by comparing all art rated with the same number of stars. You\'ll be shown two artworks at the same time. By simply tapping on the artwork you prefer, the list will be sorted from most to least favorite. Even though Art Thief pays close attention to your selections to minimize the number of comparisons required, this process can take some time if a lot of art has the same rating.</string>
+    <string name="compare_art_settings_title">Comparison Settings</string>
+    <string name="compare_art_settings_message">By default, you\'re only shown photos of the art, but you can configure it to show other information like the artist or size of the art. Choose "Settings" from the menu in the upper right-hand corner</string>
+    <string name="compare_settings_message">You can toggle what art information to display on the comparison screen.</string>
+    <string name="compare_settings_id_number_toggle">ID Number</string>
+    <string name="compare_settings_title_toggle">Title</string>
+    <string name="compare_settings_artist_toggle">Artist</string>
+    <string name="compare_settings_media_toggle">Media</string>
+    <string name="compare_settings_dimensions_toggle">Size in Inches</string>
+    <string name="compare_finished_title">Finished!</string>
+    <string name="compare_finished_explanation">All the artwork in this rating section are now in the correct order based on the preferences you indicated.</string>
+
+    <!--Augmented tab strings-->
+    <string name="augmented_visualize_header">Visualize Art on Your Wall</string>
+    <string name="augmented_supported_visualize_text">Use that camera on your device to place a virtual copy of the art on a wall.</string>
+    <string name="augmented_unsupported_visualize_text">Your device needs to support ARCore in order to use the augmented reality feature.</string>
+    <string name="augmented_visualize_button_text">Launch</string>
+
+    <!--Send tab strings-->
+    <string name="send_fragment_directions">Enter your code name and submit your list ahead of the drawing. Your highest ranked artwork that\'s still available will be selected automatically on your behalf.</string>
+    <string name="send_fragment_input_header">Enter Code Name</string>
+    <string name="send_fragment_input_hint">Assigned to You</string>
+    <string name="send_fragment_button_text">Send _ Artworks</string>
+    <string name="send_fragment_disclaimer">Only artwork with one or more stars are sent. You can update and resend your list anytime.</string>
+    <string name="send_fragment_success_dialog_title">Success!</string>
+    <string name="send_fragment_success_dialog_message">You successfully sent the list for %1$s. If you change your list you can send it again anytime before the drawing.</string>
+    <string name="send_fragment_error_dialog_title">Error</string>
+    <string name="send_fragment_empty_list_dialog_title">Empty List</string>
+    <string name="send_fragment_empty_list_message">Your list is empty. Please rate artwork before sending list</string>
+    <string name="send_fragment_dialog_ok_button_text">Okay</string>
+
+    <!--AR activity strings-->
+    <string name="searching_planes">Searching for surfaces…</string>
+    <string name="waiting_taps">Tap on a surface to place an object.</string>
+    <string name="point_cloud">Point Cloud</string>
+    <string name="options_title_point_cloud">Point Cloud Options</string>
+    <string name="point_cloud_enable_string">Enable Point Cloud</string>
+    <string name="vertical_plane_info">Vertical Plane Detection Info</string>
+    <string name="vertical_plane_info_description">It is difficult to detect walls and other vertical surfaces with Android phones that don\'t have LiDAR scanners. As a result, you may find difficulty placing artwork in augmented reality mode.\n\nThe best experiences happen when using a wall with complex patterns such as a well-lit brick wall or a wall with pictures on it.</string>
+    <string name="done">Done</string>
+
+    <!--Accessibility Content Descriptions-->
+    <string name="art_card_image">Artwork Image</string>
+    <string name="ar_back_button">Back Button</string>
+    <string name="ar_settings_button">Settings Button</string>
+    <string name="artwork_page_artwork_image">Artwork Image</string>
+    <string name="artwork_page_one_star">One Star Rating</string>
+    <string name="artwork_page_two_star">Two Star Rating</string>
+    <string name="artwork_page_three_star">Three Star Rating</string>
+    <string name="artwork_page_four_star">Four Star Rating</string>
+    <string name="artwork_page_five_star">Five Star Rating</string>
+    <string name="compare_page_artwork_1">Image of Artwork 1</string>
+    <string name="compare_page_artwork_2">Image of Artwork 2</string>
+    <string name="augmented_page_wall_background">Image of Wall in Background</string>
+    <string name="augmented_page_artwork_image">Image of highest rated artwork on wall</string>
+    <string name="overview_page_4_background">Image of Wall in background</string>
+    <string name="overview_page_4_easel">Easel for artwork to rest on</string>
+    <string name="overview_page_4_artwork_image">Image of highest rated artwork on easel</string>
+    <string name="overview_page_3_background">Image of Wall in background</string>
+    <string name="overview_page_2_background">Image of Wall in background</string>
+    <string name="overview_page_1_background">Image of Wall in background</string>
+    <string name="overview_page_1_burglar_image">Image of Burglar</string>
+    <string name="artwork_section_one_star">One Star Rating</string>
+    <string name="artwork_section_two_star">Two Star Rating</string>
+    <string name="artwork_section_three_star">Three Star Rating</string>
+    <string name="artwork_section_four_star">Four Star Rating</string>
+    <string name="artwork_section_five_star">Five Star Rating</string>
+    <string name="augmented_virtual_artwork_image">Virtual Image of Artwork in Augmented Reality</string>
+    <string name="rate_page_grid_view_artwork_image">Image of Artwork in Grid</string>
+    <string name="rate_page_grid_view_slider_cancel_button">Button to close zoom slider</string>
+</resources>
