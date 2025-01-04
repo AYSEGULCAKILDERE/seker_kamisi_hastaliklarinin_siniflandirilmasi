@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model ve veri dosyaları
+*.keras
+model.keras
+*.h5
+data/
+train/
+test/
+
+# Büyük dosyalar
+*.dll
+*.pyd
+tensorflow/
+cv2/
